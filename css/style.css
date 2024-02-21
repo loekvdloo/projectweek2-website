@@ -3,6 +3,9 @@
   padding: 0px;
   font-family: "Pixelify Sans", sans-serif;
 }
+main{
+  background-color: #251e2d;
+}
 h1 {
   font-size: 67px;
   color: white;
@@ -192,9 +195,39 @@ nav a {
   height: 0%;
   margin-top: 20px;
   position: relative;
-  left: 350px;
+  left: 466px;
 }
-
+.fotosmerch{
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  gap: 80px;
+}
+.fotosmerch a {
+  font-size: 20px;
+  color: white;
+}
+#mokdeel{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#mok{
+  width: 222px;
+  height: 70%;
+}
+#tshirt{
+  width: 300px;
+  height: 70%;
+}
+#merchendice{
+  width: 494px;
+  height: 70%;
+}
+#Keychain{
+  width: 230px;
+  height: 70%;
+}
 footer {
   display: flex;
   align-items: center;
