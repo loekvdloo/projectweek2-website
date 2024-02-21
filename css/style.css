@@ -3,7 +3,7 @@
   padding: 0px;
   font-family: "Pixelify Sans", sans-serif;
 }
-main{
+main {
   background-color: #251e2d;
 }
 h1 {
@@ -118,6 +118,28 @@ nav a {
   position: relative;
   left: 90vw;
 }
+#textteam {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+.team {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  color: white;
+}
+.teamfoto {
+  display: flex;
+}
+#fotosteam {
+  width: 80%;
+}
+.fototekst {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .faqpagina {
   background-color: #251e2d;
   margin-top: 3px;
@@ -180,24 +202,24 @@ nav a {
   margin-left: 20px;
   margin-right: 20px;
 }
-.merchpagina{
+.merchpagina {
   margin-top: 4px;
   margin-bottom: 4px;
   background-color: #251e2d;
 }
-.merchpagina h1{
- display: flex;
- justify-content: center;
- margin-top: -90px;
+.merchpagina h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: -90px;
 }
-#maan_2{
+#maan_2 {
   width: 10%;
   height: 0%;
   margin-top: 20px;
   position: relative;
   left: 466px;
 }
-.fotosmerch{
+.fotosmerch {
   display: flex;
   margin-top: 50px;
   justify-content: center;
@@ -207,24 +229,24 @@ nav a {
   font-size: 20px;
   color: white;
 }
-#mokdeel{
+#mokdeel {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-#mok{
+#mok {
   width: 222px;
   height: 70%;
 }
-#tshirt{
+#tshirt {
   width: 300px;
   height: 70%;
 }
-#merchendice{
+#merchendice {
   width: 494px;
   height: 70%;
 }
-#Keychain{
+#Keychain {
   width: 230px;
   height: 70%;
 }
