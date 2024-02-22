@@ -3,9 +3,6 @@
   padding: 0px;
   font-family: "Pixelify Sans", sans-serif;
 }
-main {
-  background-color: #251e2d;
-}
 h1 {
   font-size: 67px;
   color: white;
@@ -41,10 +38,14 @@ nav a {
 .container {
   margin-top: 4px;
   position: relative;
-  color: white;
 }
 
 /* Bottom left text */
+.index{
+  padding-bottom: 70px;
+  background-color: black;
+  margin-bottom: 4px;
+}
 .container .btn {
   position: absolute;
   top: 82%;
@@ -70,6 +71,7 @@ nav a {
 /* Top left text */
 .top-left {
   position: absolute;
+  color: white;
   font-size: 30px;
   padding: 30px;
   top: 8px;
@@ -82,6 +84,7 @@ nav a {
   top: 43%;
   left: 17%;
   transform: translate(-50%, -50%);
+  color: white;
 }
 #red {
   color: red;
@@ -112,6 +115,7 @@ nav a {
   color: white;
   font-size: 24px;
 }
+
 #samsmallicon {
   width: 6%;
   display: flex;
@@ -154,7 +158,7 @@ nav a {
   border: 5px solid;
   border-color: #514162;
   margin-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 150px;
   height: 555px;
   width: 1000px;
 }
@@ -198,9 +202,10 @@ nav a {
 #samsmallicon_1 {
   height: 0%;
   width: 7%;
-  margin-top: 540px;
+  margin-top: 650px;
   margin-left: 20px;
   margin-right: 20px;
+
 }
 .merchpagina {
   margin-top: 4px;
@@ -224,6 +229,11 @@ nav a {
   margin-top: 50px;
   justify-content: center;
   gap: 80px;
+}
+.merch{
+  background-color: #251e2d;
+  margin-bottom: 4px;
+  padding-bottom: 70px;
 }
 .fotosmerch a {
   font-size: 20px;
